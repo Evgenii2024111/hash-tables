@@ -1,15 +1,8 @@
-int? linearSearch(List<int> list, int target) {
-for (int i = 0; i < list.length; i++) {
-    if (list[i] == target) {
-    return i;
+int? linearSearch(List<int> list, int searchValue) {
+  for (int i = 0; i < list.length; i++) {
+    if (list[i] == searchValue) {
+      return i;
     }
+  }
+  return null;
 }
-    return null;
-}
-
-
-
-
-
-
-
