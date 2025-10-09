@@ -1,34 +1,40 @@
-#hash tables
+# hash tables
 
-This is a tutorial how to create a hash tables.
+This is a class tutorial on creating hash tables.
 
 # H1
 ## H2
 ### H3
 
-> Hello 
->
-> How are you?
+This is **bold text**.
+
+This is *italicized text*.
+
+This is what he said:
+
+> Hello
+> 
+> How are you?  
 > What are you doing?
 
 Here is an ordered list:
-1. first
-2. second
-3. third
+1. one 
+2. two
+3. three
 
 Here is a bullet list:
 - one
-- two
+- two 
 - three
 
-
-The way to create a Dart project is to write 'dart create .' in the terminal.
+The way to create a Dart project is to write `dart create .` in the terminal.
 
 Next copy and paste the following code:
 
 ```
 void main() {
-    print('Hello World');
+    print('Hello World!');
 }
 ```
-Visit WebSite [the dart](https://dartpad.dev).
+
+Visit [the Dart WebSite](https://dart.dev/).
