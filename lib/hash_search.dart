@@ -1,5 +1,5 @@
-String? studentSearch(List<Student?> studentList, int id) {
-  return null;
+String? studentSearch(List<Student?> studentList, int studentId) {
+  return studentList[studentId]?.name;
 }
 
 class Student {
