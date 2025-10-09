@@ -1,4 +1,4 @@
-String? studentSearch(List<Student> studentList, int id) {
+String? studentSearch(List<Student?> studentList, int id) {
   return null;
 }
 
