@@ -1,7 +1,3 @@
-// String? studentSearch(List<Student?> studentList, int studentId) {
-//   return studentList[studentId]?.name;
-// }
-
 class Student {
   final int id;
   final String name;
@@ -10,6 +6,10 @@ class Student {
 
   @override
   String toString() => '[$id] $name';
+
+  // @override
+  // // TODO: implement hashCode
+  // int get hashCode => id % 100;
 }
 
 class HashTable {

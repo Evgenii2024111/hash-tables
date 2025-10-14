@@ -3,15 +3,15 @@ import 'package:hashtables/hash_table.dart';
 import 'package:hashtables/linear_search.dart';
 
 void main() {
-  final myList = [42, 3, 10, 7, 28, 149, 0, 3, 25, 7, 1];
-  var foundIndex = linearSearch(myList, 28);
-  print(foundIndex);
+  // final myList = [42, 3, 10, 7, 28, 149, 0, 3, 25, 7, 1];
+  // var foundIndex = linearSearch(myList, 28);
+  // print(foundIndex);
 
-  myList.sort();
-  print(myList); // [0, 1, 3, 3, 7, 7, 10, 25, 28, 42, 149]
+  // myList.sort();
+  // print(myList); // [0, 1, 3, 3, 7, 7, 10, 25, 28, 42, 149]
 
-  foundIndex = binarySearch(myList, 1);
-  print(foundIndex);
+  // foundIndex = binarySearch(myList, 1);
+  // print(foundIndex);
 
   final students = HashTable();
   students.insert(Student(2024078, 'AZ1'));
@@ -37,4 +37,22 @@ void main() {
 
   final studentName = students.getStudent(2024007);
   print(studentName);
+
+  Map<int, String> idToNameMap = {
+    2024078: 'AZ1',
+    2024077: 'AZ2',
+    2021018: 'AD',
+  };
+
+  final name = idToNameMap[2021018];
+  print(name);
+
+  Map<String, int> nameToIdMap = {
+    'AZ1': 2024078,
+    'AZ2': 2024077,
+    'AD': 2021018,
+  };
+
+  final id = nameToIdMap['AZ1'];
+  print(id);
 }
